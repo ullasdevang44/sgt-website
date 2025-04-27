@@ -170,29 +170,35 @@
 
         <!-- About Section -->
         <section id="about" class="section" aria-labelledby="about-title">
-            <div id="particles-js"></div>
-            <div class="container about-text">
-                <h2 id="about-title" style="text-align: center;">✨ ನಮ್ಮ ಬಗ್ಗೆ - About Us ✨</h2>
-                <p>
-                    <strong style="font-weight: 900; font-size: 1.4em;">ಶ್ರೀ ಗವಿರಂಗ ಟ್ರೇಡರ್ಸ್ (Sri Gaviranga Traders)</strong>,
-                    ಸಿಂಗಟಗೆರೆಯಲ್ಲಿರುವ ನಿಮ್ಮ ನಂಬಲರ್ಹ ಮತ್ತು ಸಮಗ್ರ <strong>ನಿರ್ಮಾಣ ಸಾಮಗ್ರಿ, ಬಣ್ಣ, ಸಿದ್ಧ ಬಾಗಿಲುಗಳು ಮತ್ತು ಹಾರ್ಡ್‌ವೇರ್</strong> ಪೂರೈಕೆದಾರರು.
-                    ನಾವು <strong style="font-weight: 900; font-size: 1.2em;">ರಾಮ್ಕೋ ಸಿಮೆಂಟ್, ಏಷಿಯನ್ ಪೇಂಟ್, ಬಿರ್ಲಾ ಓಪಸ್, ಮತ್ತು ಜೆಮ್ ಪೇಂಟ್</strong>‌ನಂತಹ ಉನ್ನತ ಬ್ರಾಂಡ್‌ಗಳ ಅಧಿಕೃತ ಡೀಲರ್‌ಗಳಾಗಿ, ಅಸಲಿ ಉತ್ಪನ್ನಗಳನ್ನು <strong style="font-weight: 700; color: #D32F2F;">ರಿಯಾಯಿತಿ ದರದಲ್ಲಿ</strong> ಒದಗಿಸುತ್ತೇವೆ.
-                </p>
-                <p>
-                    ನಮ್ಮ ಉದ್ದೇಶ <strong style="font-weight: 900; font-size: 1.4em;">ಉನ್ನತ ಗುಣಮಟ್ಟದ ಮತ್ತು ಸಂಪೂರ್ಣ ಶ್ರೇಣಿಯ ನಿರ್ಮಾಣ ಪರಿಹಾರಗಳನ್ನು</strong> ಒದಗಿಸುವುದು, <strong style="font-weight: 700; color: #D32F2F;">ಉತ್ತಮ ಮೌಲ್ಯವನ್ನು</strong> ಖಚಿತಪಡಿಸುವುದರ ಜೊತೆಗೆ ತಜ್ಞರ ಸಲಹೆ ಮತ್ತು ಅತ್ಯುತ್ತಮ ಗ್ರಾಹಕ ಸೇವೆ ನೀಡುವುದಾಗಿದೆ.
-                    ಸಿಮೆಂಟ್ ಮತ್ತು ಫಿಟ್ಟಿಂಗ್‌ಗಳಿಂದ ಹಿಡಿದು, <strong style="font-weight: 900; font-size: 1.2em;">ನವೀನ ಬಣ್ಣ ಮಿಶ್ರಣ ತಂತ್ರಜ್ಞಾನ</strong> ಬಳಸಿ ನಿಮ್ಮ ದೃಷ್ಟಿಗೆ ತಕ್ಕ ಪರಿಪೂರ್ಣ ಬಣ್ಣವನ್ನು <strong style="font-weight: 700; color: #D32F2F;">ಕೈಗೆಟುಕುವ ದರಗಳಲ್ಲಿ</strong> ಸೃಷ್ಟಿಸುವವರೆಗೆ, ನಿಮ್ಮ ಎಲ್ಲಾ ಅಗತ್ಯಗಳನ್ನು ನಾವು ಪೂರೈಸಲು ಶ್ರಮಿಸುತ್ತೇವೆ.
-                </p>
-                <p style="text-align: center; font-size: 1.8em; font-weight: bold; margin-top: 10px;">
-                    💎 <strong>High-Quality Materials | Trusted Solutions | Superior Technology</strong>
-                </p>
-                <p style="text-align: center; font-size: 1.3em; font-weight: bold; margin-top: 15px;">
-                    <strong>GSTIN:</strong>
-                    <a href="https://services.gst.gov.in/services/searchtp" target="_blank" rel="noopener noreferrer" style="font-size: 1.4em; font-weight: bold; color: #007bff;" aria-label="Verify GST Number 29AGAPN6902G1ZF">
-                        <strong>29AGAPN6902G1ZF</strong>
-                    </a>
-                </p>
-            </div>
-        </section>
+            <!-- Use the specific ID from CSS -->
+           <div id="particles-js"></div>
+           <div class="container"> <!-- Wrap content in container -->
+               <div class="about-text"> <!-- Keep this wrapper if CSS targets it -->
+                   <h2 id="about-title">✨ ನಮ್ಮ ಬಗ್ಗೆ - <span lang="en">About Us</span> ✨</h2>
+                   <p>
+                       <!-- Use classes from CSS instead of inline styles -->
+                       <strong class="brand-highlight">ಶ್ರೀ ಗವಿರಂಗ ಟ್ರೇಡರ್ಸ್ (<span lang="en">Sri Gaviranga Traders</span>)</strong>,
+                       ಸಿಂಗಟಗೆರೆಯಲ್ಲಿರುವ ನಿಮ್ಮ ನಂಬಲರ್ಹ ಮತ್ತು ಸಮಗ್ರ <strong>ನಿರ್ಮಾಣ ಸಾಮಗ್ರಿ, ಬಣ್ಣ, ಸಿದ್ಧ ಬಾಗಿಲುಗಳು ಮತ್ತು ಹಾರ್ಡ್‌ವೇರ್</strong> ಪೂರೈಕೆದಾರರು.
+                       ನಾವು <strong class="emphasis-text" lang="en">ರಾಮ್ಕೋ ಸಿಮೆಂಟ್, ಏಷಿಯನ್ ಪೇಂಟ್, ಬಿರ್ಲಾ ಓಪಸ್, ಮತ್ತು ಜೆಮ್ ಪೇಂಟ್</strong>‌ನಂತಹ ಉನ್ನತ ಬ್ರಾಂಡ್‌ಗಳ ಅಧಿಕೃತ ಡೀಲರ್‌ಗಳಾಗಿ, ಅಸಲಿ ಉತ್ಪನ್ನಗಳನ್ನು <strong class="discount-text">ರಿಯಾಯಿತಿ ದರದಲ್ಲಿ</strong> ಒದಗಿಸುತ್ತೇವೆ.
+                   </p>
+                   <p>
+                       ನಮ್ಮ ಉದ್ದೇಶ <strong class="brand-highlight">ಉನ್ನತ ಗುಣಮಟ್ಟದ ಮತ್ತು ಸಂಪೂರ್ಣ ಶ್ರೇಣಿಯ ನಿರ್ಮಾಣ ಪರಿಹಾರಗಳನ್ನು</strong> ಒದಗಿಸುವುದು, <strong class="discount-text">ಉತ್ತಮ ಮೌಲ್ಯವನ್ನು</strong> ಖಚಿತಪಡಿಸುವುದರ ಜೊತೆಗೆ ತಜ್ಞರ ಸಲಹೆ ಮತ್ತು ಅತ್ಯುತ್ತಮ ಗ್ರಾಹಕ ಸೇವೆ ನೀಡುವುದಾಗಿದೆ.
+                       ಸಿಮೆಂಟ್ ಮತ್ತು ಫಿಟ್ಟಿಂಗ್‌ಗಳಿಂದ ಹಿಡಿದು, <strong class="emphasis-text">ನವೀನ ಬಣ್ಣ ಮಿಶ್ರಣ ತಂತ್ರಜ್ಞಾನ</strong> ಬಳಸಿ ನಿಮ್ಮ ದೃಷ್ಟಿಗೆ ತಕ್ಕ ಪರಿಪೂರ್ಣ ಬಣ್ಣವನ್ನು <strong class="discount-text">ಕೈಗೆಟುಕುವ ದರಗಳಲ್ಲಿ</strong> ಸೃಷ್ಟಿಸುವವರೆಗೆ, ನಿಮ್ಮ ಎಲ್ಲಾ ಅಗತ್ಯಗಳನ್ನು ನಾವು ಪೂರೈಸಲು ಶ್ರಮಿಸುತ್ತೇವೆ.
+                   </p>
+                   <!-- Use class from CSS -->
+                   <p class="tagline" lang="en">
+                       💎 <strong>High-Quality Materials | Trusted Solutions | Superior Technology</strong>
+                   </p>
+                   <!-- Use class from CSS -->
+                   <p class="gstin-info">
+                       <strong lang="en">GSTIN:</strong>
+                       <a href="https://services.gst.gov.in/services/searchtp" target="_blank" rel="noopener noreferrer" aria-label="Verify GST Number 29AGAPN6902G1ZF on the official GST Portal">
+                           <strong>29AGAPN6902G1ZF</strong>
+                       </a>
+                   </p>
+               </div>
+           </div>
+       </section>
 
         <!-- Why Choose Us Section -->
         <section id="why-us" class="section" aria-labelledby="why-us-title">
@@ -384,11 +390,12 @@
                             </p>
                             <p>
                                 <strong>📧 ಇಮೇಲ್ - Email:</strong><br>
-                                <a href="mailto:navisow78@gmail.com">navisow78@gmail.com</a>
+                                <a href="mailto:srigavirangatraders.store@gmail.com">srigavirangatraders.store@gmail.com</a>
                             </p>
                             <p>
-                                <strong>👤 ಮಾಲೀಕ - Owner:</strong><br>
-                                <span style="font-size: 1.5rem; font-weight: bold;">ನವೀನ್ ಕುಮಾರ್ ಎಸ್ ಟಿ<br>Naveen Kumar S T</span>
+                                <strong>👤 ಮಾಲಿಕರು - <span lang="en">Owner:</span></strong><br>
+                                <!-- Use class from CSS -->
+                                <span class="owner-name">ನವೀನ್ ಕುಮಾರ್ ಎಸ್ ಟಿ<br><span lang="en">Naveen Kumar S T</span></span>
                             </p>
                             <p><strong>📌 ನಮ್ಮ ಸ್ಥಳವನ್ನು ವೀಕ್ಷಿಸಿ - View Our Location:</strong></p>
                             <video autoplay loop muted playsinline poster="path/to/your-poster-image.jpg" style="width: 100%; height: 350px; border:1px solid #ccc; border-radius: 8px; object-fit: cover; background-color: #000; pointer-events: none;" title="Animated zoom-in view of Sri Gaviranga Traders location on map" aria-label="Animated zoom-in view of Sri Gaviranga Traders location on map">
@@ -499,7 +506,7 @@
                 <p>💰 <strong>Payment Options:</strong> Cash | Credit/Debit Cards | Google Pay | PhonePe | UPI</p>
                 <p>🚚 <strong>Service Options:</strong> In-Store Pickup | Standard Delivery | Same-Day Delivery (Local)</p>
                 <p>🅿️ <strong>Parking:</strong> Free Street Parking | On-Site Space Available</p>
-                <p>📍 <strong>Location:</strong> Singatagere, Kadur Taluk, Chikkamagaluru Dist., Karnataka | <a href="https://www.google.com/maps/dir/?api=1&destination=13.5879,76.1119" target="_blank" rel="noopener noreferrer" aria-label="Get directions to Sri Gaviranga Traders location on Google Maps">Get Directions on Map</a></p>
+                <p>📍 <strong>Location:</strong> Singatagere, Kadur Taluk, Chikkamagaluru Dist., Karnataka | <a href="https://www.google.com/maps/dir//Sri+Gaviranga+Traders+Singatagere">Get Directions on Map</a></p>
             </div>
             <script>
                 document.getElementById('current-year').textContent = new Date().getFullYear();
